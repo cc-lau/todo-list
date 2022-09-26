@@ -3,7 +3,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,7 +62,7 @@ body {
 .header {
 	display: flex;
 	align-items: center;
-	background-color: #7ed6df;
+	background-color: #e74c3c;
 	height: 100px;
 	box-shadow: 0px 2.5px 5px rgb(0 0 0 / 12%);
 }
@@ -84,8 +83,45 @@ body {
 .side-bar {
 	display: flex;
 	flex-direction: column;
-	background-color: #dff9fb;
+	background-color: #ecf0f1;
 	width: 350px;
+}
+
+.selection-container {
+	display: flex;
+	padding-left: 50px;
+	padding-top: 50px;
+	flex-direction: column;
+}
+
+.selection-container > ul > li > img {
+	height: auto;
+	width: 35px;
+}
+
+.selection-container > ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	padding-right: 50px;
+}
+
+.selection-container > ul > li:hover {
+	background-color: #dfdfdf;;
+}
+
+.selection-container > ul > li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 10px;
+	padding: 10px;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+.selection-container > ul > li > p {
+	font-size: 1.5rem;
 }
 
 .content-container {
@@ -96,11 +132,11 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #7ed6df ;
+	background-color: #e74c3c ;
 	height: 45px;
 	width: 100%;
 }
 
 .footer-text {
-	color: #535c68;
+	color: #0e0d0d;
 }

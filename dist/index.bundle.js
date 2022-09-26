@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* http://meyerweb.com/eric/tools/css/reset/ \\n   v2.0 | 20110126\\n   License: none (public domain)\\n*/\\n\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed, \\nfigure, figcaption, footer, header, hgroup, \\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tborder: 0;\\n\\tfont-size: 100%;\\n\\tfont: inherit;\\n\\tvertical-align: baseline;\\n}\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure, \\nfooter, header, hgroup, menu, nav, section {\\n\\tdisplay: block;\\n}\\nbody {\\n\\tline-height: 1;\\n}\\nol, ul {\\n\\tlist-style: none;\\n}\\nblockquote, q {\\n\\tquotes: none;\\n}\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n\\tcontent: '';\\n\\tcontent: none;\\n}\\ntable {\\n\\tborder-collapse: collapse;\\n\\tborder-spacing: 0;\\n}\\n\\nbody {\\n\\tfont-family: 'Poppins', sans-serif;\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\theight: 100vh;\\n}\\n\\n.test {\\n\\tcolor: red;\\n\\tfont-size: large;\\n}\\n\\n.header {\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\tbackground-color: #7ed6df;\\n\\theight: 100px;\\n\\tbox-shadow: 0px 2.5px 5px rgb(0 0 0 / 12%);\\n}\\n\\n.header-text {\\n\\tcolor: #ffffff;\\n\\tfont-size: 2rem;\\n\\tfont-weight: bolder;\\n\\tpadding-left: 50px;\\n}\\n\\n.main-container {\\n\\tdisplay: flex;\\n\\tflex-direction: row;\\n\\theight: 100vh;\\n}\\n\\n.side-bar {\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\tbackground-color: #dff9fb;\\n\\twidth: 350px;\\n}\\n\\n.content-container {\\n\\tbackground-color: #dff9fb;\\n}\\n\\n.footer {\\n\\tdisplay: flex;\\n\\tjustify-content: center;\\n\\talign-items: center;\\n\\tbackground-color: #7ed6df ;\\n\\theight: 45px;\\n\\twidth: 100%;\\n}\\n\\n.footer-text {\\n\\tcolor: #535c68;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://todo-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* http://meyerweb.com/eric/tools/css/reset/ \\n   v2.0 | 20110126\\n   License: none (public domain)\\n*/\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed, \\nfigure, figcaption, footer, header, hgroup, \\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tborder: 0;\\n\\tfont-size: 100%;\\n\\tfont: inherit;\\n\\tvertical-align: baseline;\\n}\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure, \\nfooter, header, hgroup, menu, nav, section {\\n\\tdisplay: block;\\n}\\nbody {\\n\\tline-height: 1;\\n}\\nol, ul {\\n\\tlist-style: none;\\n}\\nblockquote, q {\\n\\tquotes: none;\\n}\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n\\tcontent: '';\\n\\tcontent: none;\\n}\\ntable {\\n\\tborder-collapse: collapse;\\n\\tborder-spacing: 0;\\n}\\n\\nbody {\\n\\tfont-family: 'Poppins', sans-serif;\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\theight: 100vh;\\n}\\n\\n.test {\\n\\tcolor: red;\\n\\tfont-size: large;\\n}\\n\\n.header {\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\tbackground-color: #e74c3c;\\n\\theight: 100px;\\n\\tbox-shadow: 0px 2.5px 5px rgb(0 0 0 / 12%);\\n}\\n\\n.header-text {\\n\\tcolor: #ffffff;\\n\\tfont-size: 2rem;\\n\\tfont-weight: bolder;\\n\\tpadding-left: 50px;\\n}\\n\\n.main-container {\\n\\tdisplay: flex;\\n\\tflex-direction: row;\\n\\theight: 100vh;\\n}\\n\\n.side-bar {\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\tbackground-color: #ecf0f1;\\n\\twidth: 350px;\\n}\\n\\n.selection-container {\\n\\tdisplay: flex;\\n\\tpadding-left: 50px;\\n\\tpadding-top: 50px;\\n\\tflex-direction: column;\\n}\\n\\n.selection-container > ul > li > img {\\n\\theight: auto;\\n\\twidth: 35px;\\n}\\n\\n.selection-container > ul {\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\trow-gap: 10px;\\n\\tpadding-right: 50px;\\n}\\n\\n.selection-container > ul > li:hover {\\n\\tbackground-color: #dfdfdf;;\\n}\\n\\n.selection-container > ul > li {\\n\\tdisplay: flex;\\n\\tflex-direction: row;\\n\\talign-items: center;\\n\\tcolumn-gap: 10px;\\n\\tpadding: 10px;\\n\\tborder: 0px solid;\\n\\tborder-radius: 10px;\\n}\\n\\n.selection-container > ul > li > p {\\n\\tfont-size: 1.5rem;\\n}\\n\\n.content-container {\\n\\tbackground-color: #dff9fb;\\n}\\n\\n.footer {\\n\\tdisplay: flex;\\n\\tjustify-content: center;\\n\\talign-items: center;\\n\\tbackground-color: #e74c3c ;\\n\\theight: 45px;\\n\\twidth: 100%;\\n}\\n\\n.footer-text {\\n\\tcolor: #0e0d0d;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://todo-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,57 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ pageLoad)\n/* harmony export */ });\nfunction pageLoad() {\n\n    //HEADER\n    const header = document.createElement(\"div\")\n    header.classList.add(\"header\")\n    document.body.appendChild(header)\n\n    const headerText = document.createElement(\"h1\")\n    headerText.classList.add(\"header-text\")\n    headerText.innerHTML = \"Best To-Do App Ever\"\n    header.appendChild(headerText)\n    /****************************/\n\n    //MAIN CONTAINER\n    const mainContainer = document.createElement(\"div\")\n    mainContainer.classList.add(\"main-container\")\n    document.body.appendChild(mainContainer)\n    /****************************/\n\n    //SIDEBAR\n    const sideBar = document.createElement(\"div\")\n    sideBar.classList.add(\"side-bar\")\n    mainContainer.appendChild(sideBar)\n\n    const selectionContainer = document.createElement(\"div\")\n    selectionContainer.classList.add(\"selection-container\")\n    sideBar.appendChild(selectionContainer)\n    /****************************/\n\n    //CONTENT CONTAINER\n    const contentContainer = document.createElement(\"div\")\n    contentContainer.classList.add(\"content-container\")\n    mainContainer.appendChild(contentContainer)\n    /****************************/\n\n    //FOOTER\n    const footer = document.createElement(\"div\")\n    footer.classList.add(\"footer\")\n    document.body.appendChild(footer)\n\n    const footerText = document.createElement(\"p\")\n    footer.classList.add(\"footer-text\")\n    footer.innerHTML = \"&#169; cc-lau 2022\"\n    footer.appendChild(footerText)\n\n}\n\n//# sourceURL=webpack://todo-list/./src/pageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ pageLoad)\n/* harmony export */ });\n/* harmony import */ var _inbox_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./inbox.png */ \"./src/inbox.png\");\n/* harmony import */ var _calendar_today_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calendar-today.png */ \"./src/calendar-today.png\");\n/* harmony import */ var _calendar_star_outline_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calendar-star-outline.png */ \"./src/calendar-star-outline.png\");\n/* harmony import */ var _calendar_week_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./calendar-week.png */ \"./src/calendar-week.png\");\n/* harmony import */ var _package_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./package.png */ \"./src/package.png\");\n\n\n\n\n\n\n\nfunction pageLoad() {\n\n    //HEADER\n    const header = document.createElement(\"div\")\n    header.classList.add(\"header\")\n    document.body.appendChild(header)\n\n    const headerText = document.createElement(\"h1\")\n    headerText.classList.add(\"header-text\")\n    headerText.innerHTML = \"Best To-Do App Ever\"\n    header.appendChild(headerText)\n    /****************************/\n\n    //MAIN CONTAINER\n    const mainContainer = document.createElement(\"div\")\n    mainContainer.classList.add(\"main-container\")\n    document.body.appendChild(mainContainer)\n    /****************************/\n\n    //SIDEBAR\n    const sideBar = document.createElement(\"div\")\n    sideBar.classList.add(\"side-bar\")\n    mainContainer.appendChild(sideBar)\n\n    const selectionContainer = document.createElement(\"div\")\n    selectionContainer.classList.add(\"selection-container\")\n    sideBar.appendChild(selectionContainer)\n\n\n    const sideBarList = document.createElement(\"ul\")\n    selectionContainer.appendChild(sideBarList)\n\n \n\n    //SIDEBAR SELECTIONS\n    const inboxSelect = document.createElement(\"li\")\n    sideBarList.appendChild(inboxSelect)\n    const inboxIcon = new Image();\n    inboxIcon.src = _inbox_png__WEBPACK_IMPORTED_MODULE_0__;\n    inboxSelect.appendChild(inboxIcon);\n    const inboxTitle = document.createElement(\"p\")\n    inboxTitle.innerHTML = \"Inbox\"\n    inboxSelect.appendChild(inboxTitle)\n\n\n    const todaySelect = document.createElement(\"li\")\n    sideBarList.appendChild(todaySelect)\n    const todayIcon = new Image();\n    todayIcon.src = _calendar_today_png__WEBPACK_IMPORTED_MODULE_1__;\n    todaySelect.appendChild(todayIcon);\n    const todayTitle = document.createElement(\"p\")\n    todayTitle.innerHTML = \"Today\"\n    todaySelect.appendChild(todayTitle)\n\n\n    const weekSelect = document.createElement(\"li\")\n    sideBarList.appendChild(weekSelect)\n    const weekIcon = new Image();\n    weekIcon.src = _calendar_week_png__WEBPACK_IMPORTED_MODULE_3__;\n    weekSelect.appendChild(weekIcon);\n    const weekTitle = document.createElement(\"p\")\n    weekTitle.innerHTML = \"Week\"\n    weekSelect.appendChild(weekTitle)\n\n\n    const importantSelect = document.createElement(\"li\")\n    sideBarList.appendChild(importantSelect)\n    const importantIcon = new Image();\n    importantIcon.src = _calendar_star_outline_png__WEBPACK_IMPORTED_MODULE_2__;\n    importantSelect.appendChild(importantIcon);\n    const importantTitle = document.createElement(\"p\")\n    importantTitle.innerHTML = \"Important\"\n    importantSelect.appendChild(importantTitle)\n\n\n\n\n\n    const projectSelect = document.createElement(\"li\")\n    sideBarList.appendChild(projectSelect)\n    const projectIcon = new Image();\n    projectIcon.src = _package_png__WEBPACK_IMPORTED_MODULE_4__;\n    projectSelect.appendChild(projectIcon);\n    const projectTitle = document.createElement(\"p\")\n    projectTitle.innerHTML = \"Projects\"\n    projectSelect.appendChild(projectTitle)\n    /****************************/\n\n\n    //CONTENT CONTAINER\n    const contentContainer = document.createElement(\"div\")\n    contentContainer.classList.add(\"content-container\")\n    mainContainer.appendChild(contentContainer)\n    /****************************/\n\n    //FOOTER\n    const footer = document.createElement(\"div\")\n    footer.classList.add(\"footer\")\n    document.body.appendChild(footer)\n\n    const footerText = document.createElement(\"p\")\n    footer.classList.add(\"footer-text\")\n    footer.innerHTML = \"&#169; cc-lau 2022\"\n    footer.appendChild(footerText)\n\n}\n\n//# sourceURL=webpack://todo-list/./src/pageLoad.js?");
+
+/***/ }),
+
+/***/ "./src/calendar-star-outline.png":
+/*!***************************************!*\
+  !*** ./src/calendar-star-outline.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"625cb11a78df427709e9.png\";\n\n//# sourceURL=webpack://todo-list/./src/calendar-star-outline.png?");
+
+/***/ }),
+
+/***/ "./src/calendar-today.png":
+/*!********************************!*\
+  !*** ./src/calendar-today.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b742c034020a1385b26d.png\";\n\n//# sourceURL=webpack://todo-list/./src/calendar-today.png?");
+
+/***/ }),
+
+/***/ "./src/calendar-week.png":
+/*!*******************************!*\
+  !*** ./src/calendar-week.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6138136d7f521cefb026.png\";\n\n//# sourceURL=webpack://todo-list/./src/calendar-week.png?");
+
+/***/ }),
+
+/***/ "./src/inbox.png":
+/*!***********************!*\
+  !*** ./src/inbox.png ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"50b91c9fa089ff4b5f20.png\";\n\n//# sourceURL=webpack://todo-list/./src/inbox.png?");
+
+/***/ }),
+
+/***/ "./src/package.png":
+/*!*************************!*\
+  !*** ./src/package.png ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9179e3f9a529c4b19bd8.png\";\n\n//# sourceURL=webpack://todo-list/./src/package.png?");
 
 /***/ })
 
@@ -181,6 +231,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -195,6 +257,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
