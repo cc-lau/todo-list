@@ -120,12 +120,28 @@ body {
 	border-radius: 10px;
 }
 
+.project-select {
+	border-top: 1px solid black;
+	margin-top: 50px;
+
+}
+
+.down-arrow {
+	margin-left: 35px;
+}
+
 .selection-container > ul > li > p {
 	font-size: 1.5rem;
 }
 
 .content-container {
-	background-color: #dff9fb;
+	display: flex;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.content-title {
+	font-size: 2.5rem;
 }
 
 .footer {
