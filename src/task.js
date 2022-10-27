@@ -18,9 +18,15 @@ import {
 import loadForm from './loadForm';
 export {
 	addTask,
-	userTasks
+	userTasks,
 }
 const userTasks = []
+
+/* localStorage.setItem("tasks", JSON.stringify(userTasks))
+let storedTasks = JSON.parse(localStorage.getItem("tasks"))
+function displayLocalStorage() {
+displayTask(storedTasks)
+} */
 
 function addTask() {
 	//TASK OBJECT
@@ -55,27 +61,33 @@ function addTask() {
 		card.classList.add("card", "task-card")
 		card.style.display = "flex"
 		taskContainer.appendChild(card);
+		const card2 = document.createElement("div")
+		card2.classList.add("card-2")
+		card.appendChild(card2)
 		//CREATE TASK DOT
 		const taskDot = document.createElement("span")
 		taskDot.classList.add("default-task-dot")
-		card.appendChild(taskDot)
+		card2.appendChild(taskDot)
 		//DISPLAY TASK CONTENTS
 		const titlePara = document.createElement("p");
 		titlePara.textContent = (`${Task.title}`);
-		card.appendChild(titlePara)
-		const descPara = document.createElement("p");
+		card2.appendChild(titlePara)
+		titlePara.classList.add("title-para")
+		/* 		const descPara = document.createElement("p");
 		descPara.textContent = (`${Task.description}`);
-		card.appendChild(descPara)
+		card.appendChild(descPara) */
 		const dueDatePara = document.createElement("p");
 		dueDatePara.textContent = (`${Task.dueDate}`);
-		card.appendChild(dueDatePara)
+		card2.appendChild(dueDatePara)
+		dueDatePara.classList.add("due-date-para")
 		const priorityPara = document.createElement("p")
 		priorityPara.textContent = (`${Task.priority}`);
-		card.appendChild(priorityPara)
-		//FOR TESTING PURPOSES
+		card2.appendChild(priorityPara)
+		priorityPara.classList.add("priority-para")
+/* 		//FOR TESTING PURPOSES
 		const projectPara = document.createElement("p")
 		projectPara.textContent = (`${Task.projectOption}`);
-		card.appendChild(projectPara)
+		card.appendChild(projectPara) */
 		//RESET PRIORITY
 		addPlus.addEventListener('click', function() {
 			document.getElementById("priority").dataset.value = "none"
@@ -84,12 +96,12 @@ function addTask() {
 		const editIcon = new Image();
 		editIcon.src = edit;
 		editIcon.classList.add("edit-icon")
-		card.appendChild(editIcon);
+		card2.appendChild(editIcon);
 		//CREATE REMOVE ICON
 		const removeTaskIcon = new Image();
 		removeTaskIcon.src = trash;
 		removeTaskIcon.classList.add("remove-icon")
-		card.appendChild(removeTaskIcon);
+		card2.appendChild(removeTaskIcon);
 		//REMOVE TASK
 		removeTaskIcon.addEventListener('click', function() {
 			card.remove();
@@ -153,9 +165,7 @@ function addTask() {
 						card.style.display = "none"
 					} else if (projectValue === Task.projectOption) {
 						card.style.display = "flex"
-					} /* else if (Task.projectOption === "none") {
-						card.style.display = "none"
-					} */
+					}
 				})
 			})
 		}

@@ -245,8 +245,17 @@ body {
   padding: 10px;
   border: solid 0px;
   border-radius: 10px;
+  width: 100%;
 }
 
+.card-2 {
+  display: grid;
+  align-items: center;
+  justify-self: center;
+  grid-column: 1fr;
+  grid-template-columns: .5fr 2fr 2fr 2fr .5fr .5fr;
+  max-width: 100%;
+}
 /* .card > p {
 	color: rgba(78, 78, 78, 0.726);
 } */
@@ -257,16 +266,41 @@ body {
   color: rgba(128, 128, 128, 0.502);
 }
 
-.remove-icon {
-  height: auto;
-  width: 46.5px;
-  padding: 10px;
+
+
+.title-para {
+  grid-column: 2 / 2;
+  justify-self: center;
 }
+
+.due-date-para {
+  grid-column: 3 / 3;
+  justify-self: center;
+}
+
+.priority-para {
+  grid-column: 4 / 4;
+  justify-self: center;
+}
+
 .edit-icon {
   height: auto;
   width: 46.5px;
   padding: 10px;
+  grid-column: 5 / 5;
+  justify-self: center;
+
 }
+
+.remove-icon {
+  height: auto;
+  width: 46.5px;
+  padding: 10px;
+  grid-column: 6 / 6;
+  justify-self: center;
+
+}
+
 
 /* .hide-edit {
 	display: none;

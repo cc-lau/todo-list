@@ -13,6 +13,7 @@ import loadWeek from './loadWeek.js';
 import loadInbox from './loadInbox.js';
 import loadForm from './loadForm.js';
 import loadProjectForm from './projects.js'
+import displayLocalStorage from './task.js'
 import {
 	userProjects
 } from './projects.js';
