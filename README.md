@@ -21,5 +21,3 @@
 <img src="./src/todo_sc.png"/>
 
 </div>
-
-ToDo-List
