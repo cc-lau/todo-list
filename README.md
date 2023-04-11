@@ -6,7 +6,7 @@
 
   <p>This project is a <b>To-Do App</b> website. This app that allows users to add, edit, and remove tasks. This project was built demonstrate strong knowledge of javascript fundamentals. Followed THE ODIN PROJECT curriculum. </p>
 
-👉 Live Demo: <a href="https://cc-lau.github.io/yt-2-mp3/">Live Demo</a>
+👉 Live Demo: <a href="https://cc-lau.github.io/todo-list/">Live Demo</a>
 
 <h3>Built with:</h3>
 
