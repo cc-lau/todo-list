@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/cc-lau/todo-list/issues"
   },
-  "homepage": "https://github.com/cc-lau/todo-list#readme",
+  "homepage": "https://cc-lau.github.io/todo-list",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "gh-pages": "^5.0.0",
