@@ -1,6 +1,6 @@
 # todo-list
 
-<div align="center"><img src="./src/Assests/Images/Youtube-to-mp3.png" style="width:30%"> </div>
+<div align="center"><b>To-Do App</b></div>
 
 <h2>About the project</h2>
 
@@ -18,7 +18,7 @@
 <h3 align="center">Home Page 🏡</h3>
 
 <div>
-<img src="./src/Assests/Images/youtube-project.png"/>
+<img src="./src/todo_sc.png"/>
 
 </div>
 
